@@ -1,8 +1,15 @@
 const express = require('express')
-const app = express()
+const socket = require('socket.io')
 
+const app = express()
 const port = 2323
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server runnig on port ${port}`)
+})
+
+const io = socket(server)
+
+io.on('connection', function(socket) {
+  console.log(`Connection ${socket.id} established`)
 })
