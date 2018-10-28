@@ -11,3 +11,5 @@ Serve
 ```
 $ npm run serve
 ```
+
+![Serve](https://i.imgur.com/JIuFVDV.gif)
