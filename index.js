@@ -5,7 +5,7 @@ const app = express()
 const port = 2323
 
 const server = app.listen(port, () => {
-  console.log(`Server runnig on port ${port}`)
+  console.log(`Socket server runnig on port ${port}`)
 })
 
 const io = socket(server)
