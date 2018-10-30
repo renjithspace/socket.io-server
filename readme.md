@@ -13,3 +13,6 @@ $ npm run serve
 ```
 
 ![Serve](https://i.imgur.com/sbWdION.png)
+
+#### When receive new connection
+![Connection](https://i.imgur.com/uYaQybU.png)
