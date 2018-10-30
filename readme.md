@@ -7,9 +7,9 @@ Install dependencies
 $ npm i
 ```
 
-Serve
+#### Serve
 ```
 $ npm run serve
 ```
 
-![Serve](https://i.imgur.com/JIuFVDV.gif)
+![Serve](https://i.imgur.com/sbWdION.png)
